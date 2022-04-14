@@ -83,7 +83,6 @@
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="/employees">View Employees</a>
                         <a class="dropdown-item" href="/employees/create">Add New Employee</a>
-                        <a class="dropdown-item" href="#">Delete Employee</a>
                     </div>
                 
                 </a>
