@@ -4,9 +4,11 @@
     <table class="table border border-right-15">
         <thead class="thead-dark">
             <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Date</th>
                 <th scope="col">Emp ID</th>
                 <th scope="col">Full Names</th>
-                <th scope="col">Date</th>
+                <th scope="col">Dept</th>
                 <th scope="col">Clock In</th>
                 <th scope="col">Clock Out</th>
                 <th scope="col">Actions</th>
@@ -16,9 +18,11 @@
         <tbody>
             @forelse ($employees as $employee)
             <tr>
+                <td> {{ \Carbon\Carbon::today()->timezone('EAT')->format('d/m/Y')}} </td>
+                <td> {{ \Carbon\Carbon::today()->timezone('EAT')->format('D')}} </td>
                 <td> {{ $employee->id }} </td>
                 <td> {{ $employee->name }} </td>
-                <td> {{ \Carbon\Carbon::today()->timezone('EAT')->format('Y/m/d')}} </td>
+                <td> </td>
                 <td>
                     <form method='post' action='/mark_attendance'>
                         @csrf

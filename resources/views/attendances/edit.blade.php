@@ -70,8 +70,8 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
 
             <div class="form-group">
-                <strong>Cloocked Out:</strong>
-                <input type="datetime" name="clocked_out_at" value="{{ $attendance->clocked_out_at }}" class="form-control" placeholder="Datetime">
+                <strong>Clocked Out:</strong>
+                <input type="datetime" name="clocked_out_at" value="{{ $attendance->clocked_out_at }}" class="form-control" placeholder="Clock Out">
             </div>
 
             </div>

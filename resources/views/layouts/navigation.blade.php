@@ -21,6 +21,11 @@
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('generate-pdf')" :active="request()->routeIs('generate-pdf')">
+                        {{ __('PDF') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('changePasswordPost')" :active="request()->routeIs('changePasswordPost')">
                         {{ __('ChangePassword') }}
                     </x-nav-link>

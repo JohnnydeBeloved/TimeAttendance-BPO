@@ -51,5 +51,6 @@ $app->singleton(
 | from the actual running of the application and sending responses.
 |
 */
+define('PHPWORD_BASE_DIR', realpath(__DIR__));
 
 return $app;

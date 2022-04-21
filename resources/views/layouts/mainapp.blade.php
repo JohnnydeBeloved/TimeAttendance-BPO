@@ -89,7 +89,7 @@
 
 
                 <a href="/attendances" class="list-group-item list-group-item-action bg-light">Attendances</a>
-                <a href="https://google.com" class="list-group-item list-group-item-action bg-light">Reports</a>
+                <a href="/generate-pdf" class="list-group-item list-group-item-action bg-light">PDF</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
             </div>

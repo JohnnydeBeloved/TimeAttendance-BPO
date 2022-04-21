@@ -1,15 +1,24 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '07352de687034296de2d6023b4e3b4911b8d94d5',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
     'versions' => array(
+        'barryvdh/laravel-dompdf' => array(
+            'pretty_version' => 'v1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../barryvdh/laravel-dompdf',
+            'aliases' => array(),
+            'reference' => 'e3f429e97087b2ef19b83e5ed313f080f2477685',
+            'dev_requirement' => false,
+        ),
         'brick/math' => array(
             'pretty_version' => '0.9.3',
             'version' => '0.9.3.0',
@@ -65,6 +74,15 @@
             'install_path' => __DIR__ . '/../doctrine/lexer',
             'aliases' => array(),
             'reference' => 'c268e882d4dbdd85e36e4ad69e02dc284f89d229',
+            'dev_requirement' => false,
+        ),
+        'dompdf/dompdf' => array(
+            'pretty_version' => 'v1.2.1',
+            'version' => '1.2.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../dompdf/dompdf',
+            'aliases' => array(),
+            'reference' => 'c6dfd9bb8b0040609f04754f729d4cb3016e0575',
             'dev_requirement' => false,
         ),
         'dragonmantank/cron-expression' => array(
@@ -364,6 +382,15 @@
                 0 => '*',
             ),
         ),
+        'laminas/laminas-escaper' => array(
+            'pretty_version' => '2.10.0',
+            'version' => '2.10.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas/laminas-escaper',
+            'aliases' => array(),
+            'reference' => '58af67282db37d24e584a837a94ee55b9c7552be',
+            'dev_requirement' => false,
+        ),
         'laravel/breeze' => array(
             'pretty_version' => 'v1.9.0',
             'version' => '1.9.0.0',
@@ -383,12 +410,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '07352de687034296de2d6023b4e3b4911b8d94d5',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -568,6 +595,24 @@
             'reference' => '4f7fd7836c6f332bb2933569e566a0d6c4cbed74',
             'dev_requirement' => true,
         ),
+        'phenx/php-font-lib' => array(
+            'pretty_version' => '0.5.4',
+            'version' => '0.5.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phenx/php-font-lib',
+            'aliases' => array(),
+            'reference' => 'dd448ad1ce34c63d09baccd05415e361300c35b4',
+            'dev_requirement' => false,
+        ),
+        'phenx/php-svg-lib' => array(
+            'pretty_version' => '0.4.1',
+            'version' => '0.4.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phenx/php-svg-lib',
+            'aliases' => array(),
+            'reference' => '4498b5df7b08e8469f0f8279651ea5de9626ed02',
+            'dev_requirement' => false,
+        ),
         'phpdocumentor/reflection-common' => array(
             'pretty_version' => '2.2.0',
             'version' => '2.2.0.0',
@@ -594,6 +639,15 @@
             'aliases' => array(),
             'reference' => '77a32518733312af16a44300404e945338981de3',
             'dev_requirement' => true,
+        ),
+        'phpoffice/phpword' => array(
+            'pretty_version' => '0.18.3',
+            'version' => '0.18.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpoffice/phpword',
+            'aliases' => array(),
+            'reference' => 'be0190cd5d8f95b4be08d5853b107aa4e352759a',
+            'dev_requirement' => false,
         ),
         'phpoption/phpoption' => array(
             'pretty_version' => '1.8.1',
@@ -814,6 +868,15 @@
             'replaced' => array(
                 0 => '4.3.1',
             ),
+        ),
+        'sabberworm/php-css-parser' => array(
+            'pretty_version' => '8.4.0',
+            'version' => '8.4.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../sabberworm/php-css-parser',
+            'aliases' => array(),
+            'reference' => 'e41d2140031d533348b2192a83f02d8dd8a71d30',
+            'dev_requirement' => false,
         ),
         'sebastian/cli-parser' => array(
             'pretty_version' => '1.0.1',
